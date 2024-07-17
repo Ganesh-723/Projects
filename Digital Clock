@@ -4,8 +4,6 @@ clk = Tk()
 clk.title("Clock")
 clk.geometry("1350x700+0+0")
 clk.config(bg = "#0C1E28")
-
-
 def clock():
     hr = str(time.strftime("%H"))
     mn = str(time.strftime("%M"))

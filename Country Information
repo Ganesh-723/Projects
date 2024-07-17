@@ -8,3 +8,4 @@ print(country.borders())
 data = country.info()
 for i, j in data.items():
 print(f"{i}:>>{j}")
+
